@@ -18,7 +18,7 @@
 <body>
   <header class="nav shell hook-nav">
     <a class="brand" href="#top"><span class="brand-mark">✦</span><span>天赋图鉴</span></a>
-    <a class="hook-nav-link" href="#reading">开始解读</a>
+    <div class="langs" aria-label="Language"><button type="button" data-lang="zh" aria-pressed="true" class="active">中</button><button type="button" data-lang="en" aria-pressed="false">EN</button><button type="button" data-lang="es" aria-pressed="false">ES</button></div>
   </header>
 
   <main id="top">
@@ -84,6 +84,7 @@
 
   <footer class="shell hook-footer"><span>天赋图鉴 · 九数天赋探索</span><small>结果用于文化探索和自我反思，不构成专业建议或命运预测。</small></footer>
   <script>let lang='zh'</script>
+  <script src="hook-language.js"></script>
   <script src="talent-detail.js"></script>
   <script src="talent-engine.js"></script>
   <script src="hook-runtime.js"></script>
