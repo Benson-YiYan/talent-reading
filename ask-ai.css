@@ -8,7 +8,6 @@
 .ask-ai-message.user{justify-self:end;border-color:rgba(201,157,88,.45);background:#182b31}
 .ask-ai-message small{color:var(--teal);font-size:11px;letter-spacing:.08em}
 .ask-ai-profile{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;margin:20px 0 12px}
-.ask-ai-profile>p{grid-column:1/-1;margin:0;color:#91a3a2;font-size:12px}
 .ask-ai-profile label{display:block;margin-bottom:6px;color:var(--muted);font-size:12px}
 .ask-ai-profile input,.ask-ai-profile select{display:block;width:100%;min-height:44px;padding:10px 12px;background:#061d2a;color:var(--ink);border:1px solid #36515a;font:inherit}
 .ask-ai-message p{margin:5px 0 0;color:var(--ink);white-space:pre-wrap;overflow-wrap:anywhere}
